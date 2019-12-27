@@ -1,7 +1,7 @@
 people.tchelinux.org
 ====================
 
-Este repositório contém páginas com informações para contato dos membros do Tchelinux, disponíveis em https://people.tchelinux.org/<username>/.
+Este repositório contém páginas com informações para contato dos membros do Tchelinux, disponíveis em https://people.tchelinux.org/username/.
 
 ## Como criar sua página
 
