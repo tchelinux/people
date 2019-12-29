@@ -22,4 +22,4 @@ Abaixo segue uma breve descrição dos campos e sugestão de valores a serem usa
 | Facebook  | Perfil no Facebook (ex. https//facebook.com/tchelinux)                                   | Facultativo       |
 | Messenger | Usuário no Facebook Messenger (ex. https//m.me/tchelinux)                                | Facultativo       |
 | Telegram  | Usuário no Telegram (ex. @tchelinux)                                                     | Facultativo       |
-| Whatsapp  | Contato no WhatsApp (ex. https//api.whatsapp.com/send?phone=5551912345678|)              | Facultativo       |
+| Whatsapp  | Contato no WhatsApp (ex. https//api.whatsapp.com/send?phone=5551912345678)               | Facultativo       |
