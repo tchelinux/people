@@ -27,7 +27,7 @@ Este repositório contém páginas com informações para contato dos membros do
   $ cp template.json <username>/
 ```
 
-### Edite o arquivo `template.json`, insira seu nome e demais informações que quiser compartilhar.
+### Edite o arquivo `template.json`, insira seu nome e demais informações que quiser compartilhar. Uma lista contendo todos campos suportados pelo template [podem ser encontrados aqui](TEMPLATE.md).
 
 > Importante: os campos `Usuario` e `Nome` são mandatórios para que a página possa ser propriamente criada. Sugerimos que pelo menos um meio de contato seja adicionado (website, email ou rede social).
 
