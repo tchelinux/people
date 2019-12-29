@@ -14,7 +14,7 @@ Abaixo segue uma breve descrição dos campos e sugestão de valores a serem usa
 | Email     | Endereço de email (ex. tchelinux-eventos@gmail.com)                                       | Facultativo       | 
 | Website   | Website pessoal, se possuir (ex. https://tchelinux.org)                                   | Facultativo       | 
 | Github    | Repositório no Github (ex. https://github.com/tchelinux)                                  | Recomendado       | 
-| Linkedin  | Perfil no Linkedin (ex. https://www.linkedin.com/leonardovaz)                             | Facultativo       |                             
+| Linkedin  | Perfil no Linkedin (ex. https://www.linkedin.com/in/leonardovaz)                          | Facultativo       |                             
 | Twitter   | Perfil no Twitter  (ex. https://twitter.com/tchelinux)                                    | Facultativo       | 
 | Mastodon  | Perfil no Mastodon (ex. https://mastodon.social/@tchelinux)                               | Facultativo       |
 | Youtube   | Perfil ou Canal no YouTube (ex. https://youtube.com/tchelinux)                            | Facultativo       |
