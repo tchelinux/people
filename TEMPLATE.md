@@ -21,5 +21,5 @@ Abaixo segue uma breve descrição dos campos e sugestão de valores a serem usa
 | Instagram | Perfil no Instagram (ex. https://instagram.com/tchelinux)                                 | Facultativo       |
 | Facebook  | Perfil no Facebook (ex. https://facebook.com/tchelinux)                                   | Facultativo       |
 | Messenger | Usuário no Facebook Messenger (ex. https://m.me/tchelinux)                                | Facultativo       |
-| Telegram  | Usuário no Telegram (ex. @tchelinux)                                                      | Facultativo       |
+| Telegram  | Usuário no Telegram (ex. https://t.me/tchelinux)                                          | Facultativo       |
 | Whatsapp  | Contato no WhatsApp (ex. https://api.whatsapp.com/send?phone=5551912345678)               | Facultativo       |
