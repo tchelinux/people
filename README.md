@@ -60,7 +60,13 @@ Este repositório contém páginas com informações para contato dos membros do
 
 ```
 
-### Ao concluir as edições (e certificar que o arquivo `template.json` não contem erros!), faça o commit localmente
+### Ao concluir as edições (e certificar que o arquivo `template.json` não contem erros!), adicione o novo diretório <username> ao seu repositório local
+
+```
+  $ git add <username>
+```
+
+### Faça o commit localmente
 
 ``` 
   $ git commit -m "Adicionado página do <seu_nome_aqui> no people.tchelinux.org"
