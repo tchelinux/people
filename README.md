@@ -31,7 +31,7 @@ Este repositório contém páginas com informações para contato dos membros do
 
 > Importante: os campos `Usuario` e `Nome` são mandatórios para que a página possa ser propriamente criada. Sugerimos que pelo menos um meio de contato seja adicionado (website, email ou rede social).
 
-### Instale o pacote `jq` (ou outra ferramenta para fazer a validação do arquivo) e verifique se arquivo JSON não contém nenhum erro:
+### Instale o pacote `jq` (ou outra ferramenta para fazer a validação do arquivo JSON) e verifique se o mesmo não contém nenhum erro
 
 ```
   $ cat <username>/template.json |jq [.]
