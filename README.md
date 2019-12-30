@@ -7,6 +7,8 @@ Este repositório contém páginas com informações para contato dos membros do
 
 ### Crie um fork deste este repositorio
 
+Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no lado direito vai aparecer um botão "Fork". Clique no botão e uma cópia do seu repositório será criada na sua conta.
+
 ### Clone o repositório que você acabou de fazer o fork e crie uma branch de trabalho
 
 ```
@@ -71,6 +73,16 @@ Este repositório contém páginas com informações para contato dos membros do
 ``` 
   $ git commit -m "Adicionado página do <seu_nome_aqui> no people.tchelinux.org"
 ``` 
+
+### Faça o merge da branch que você criou com a master
+
+``` 
+  $ git checkout master
+
+  $ git merge <username>
+
+``` 
+
 
 ### Envie as mudanças para seu repositório
 
