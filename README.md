@@ -17,7 +17,7 @@ Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no
   $ git checkout -b username_page
 ``` 
 
-### Crie um diretório com nome do seu usuário, este será o nome que aparecerá na URL da sua página (ex. https://people.tchelinux.org/leonardovaz)
+### Crie um diretório com nome do seu usuário (usando apenas letras minúsculas), este será o nome que aparecerá na URL da sua página (ex. https://people.tchelinux.org/leonardovaz)
 
 ``` 
   $ mkdir <username>
@@ -61,7 +61,6 @@ Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no
  ]
 
 ```
-
 ### Ao concluir as edições (e certificar que o arquivo `template.json` não contem erros!), adicione o novo diretório <username> ao seu repositório local
 
 ```
@@ -82,7 +81,6 @@ Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no
   $ git merge <username>
 
 ``` 
-
 
 ### Envie as mudanças para seu repositório
 
