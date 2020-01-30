@@ -10,78 +10,8 @@
 
         <link rel="shortcut icon" type="image/x-icon" href="https://tchelinux.org/favicon.ico">
         <link rel="stylesheet" href="https://tchelinux.org/css/tchelinux.css">
-        <style>
-        nav {
-            background-color: rgb(0, 0, 0);
-        }
-        body {
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-        .container {
-            margin-top: 2em;
-            margin-right: 1em;
-            margin-left: 1em;
-        }
-        .card-deck {
-            margin: 0 auto;
-            width: 100%;
-        }
-        .card {
-            width: 125px !important;
-            height: 125px !important;
-            margin: 0 auto !important;
-            padding: 5px;
-            background-color: rgb(255,255,255) !important;
-            border: None !important;
-        }
-        .card-title {
-            text-shadow: 0px 0px 5px rgb(0,0,0);
-            font-size: small;
-            font-weight: bolder;
-            position: absolute;
-            bottom: 0px;
-        }
-        img.card-img {
-            width: 100px !important;
-            height: 100px !important;
-            border-radius: 5px 5px;
-            border: solid thin rgb(200,200,200);
-            margin:0 auto !important;
-        }
-        @media (min-width: 660px) {
-            .container {
-                margin-top: 2em;
-                margin-right: 0em;
-                margin-left: 0em;
-            }
-            .card {
-                width: 180px !important;
-                height: 180px !important;
-            }
-            img.card-img {
-                width: 150px !important;
-                height: 150px !important;
-                background-color: rgb(255,255,255) !important;
-            }
-            .card-title {
-                font-size: x-large;
-            }
-        }
-        @media (min-width: 980px) {
-            .card {
-                width: 325px !important;
-                height: 325px !important;
-            }
-            img.card-img {
-                width: 300px !important;
-                height: 300px !important;
-            }
-            .card-title {
-                font-size: x-large;
-            }
-        }
-        </style>
+        <link rel="stylesheet" href="people.css">
+
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark">
