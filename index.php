@@ -33,19 +33,15 @@
         </nav>
 
         <div class="container">
-            <!-- <div class="card-deck"> -->
+            <div class="gallery">
                 <?php
                 // base directory for users.
                 $user_repo = "people/";
-                // number of cards per row = 12 / $size;
-                $size = 4;
 
                 function render_card($user)
                 {
                     // base directory for users.
                     $user_repo = "people/";
-                    // number of cards per row = 12 / $size;
-                    $size = 4;
                     $filename = "{$user_repo}/{$user}/template.json";
                     $data = file_get_contents($filename);
                     $json = json_decode($data);
@@ -53,33 +49,28 @@
                         $json->Foto = "https://avatars1.githubusercontent.com/u/8228496";
                     }
                     if (isset($json)) {
-                        $card = <<<EOS
-                        <a class="card text-white col-sm-{$size}" href="https://people.tchelinux.org/{$json->User}">
-                            <img class="card-img" src="{$json->Foto}" alt="{$json->User}">
-                            <p class="card-title">{$json->User}</p>
-                        </a>
-EOS;
+                        $card = "<div class=\"col-sm-2 avatar\"><a href=\"https://people.tchelinux.org/{$json->User}\"><img class=\"photo\" src=\"{$json->Foto}\" alt=\"{$json->User}\"><p class=\"username\">{$json->User}</p></a></div>";
                         echo $card;
                     }
                 }
 
-                $row = $size;
-                echo '<div class="row">';
+                $row = 1;
+                echo '<div class="gallery_line"><div class="avatar col-sm-1">&nbsp;</div>';
                 render_card('tchelinux');
                 $users = scandir($user_repo);
                 shuffle($users);
                 foreach ($users as $user) {
                     if ($user[0] != '.' and $user != 'tchelinux') {
-                        if ($row % 12 == 0) {
-                            echo '</div><div class="row">';
+                        if ($row % 5 == 0) {
+                            echo '<div class="avatar col-sm-1">&nbsp;</div></div><div class="gallery_line"><div class="avatar col-sm-1">&nbsp;</div>';
                         }
-                        $row += $size;
+                        $row += 1;
                         render_card($user);
                     }
                 }
-                echo '</div>';
+                echo '<div class="avatar col-sm-1">&nbsp;</div></div>';
                 ?>
-            <!-- </div> -->
+            </div>
         </div>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
