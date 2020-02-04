@@ -49,7 +49,7 @@
                         $json->Foto = "https://avatars1.githubusercontent.com/u/8228496";
                     }
                     if (isset($json)) {
-                        $card = "<div class=\"col-sm-2 avatar\"><a href=\"https://people.tchelinux.org/{$json->User}\"><img class=\"photo\" src=\"{$json->Foto}\" alt=\"{$json->User}\"><p class=\"username\">{$json->User}</p></a></div>";
+                        $card = "<div class=\"col-sm-2 avatar\"><a title=\"{$json->Nome}\" href=\"https://people.tchelinux.org/{$json->User}\"><img class=\"photo\" src=\"{$json->Foto}\" alt=\"{$json->User}\"><p class=\"username\">{$json->User}</p></a></div>";
                         echo $card;
                     }
                 }
