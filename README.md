@@ -20,18 +20,18 @@ Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no
 ### Crie um diretório com nome do seu usuário (usando apenas letras minúsculas), este será o nome que aparecerá na URL da sua página (ex. https://people.tchelinux.org/leonardovaz)
 
 ``` 
-  $ mkdir <username>
+  $ mkdir people/<username>
 ``` 
 
 ### Copie o arquivo `template.json` para o diretório criado no passo anterior
 
 ```
-  $ cp template.json <username>/
+  $ cp template.json people/<username>/
 ```
 
-### Edite o arquivo `template.json`, insira seu nome e demais informações que quiser compartilhar. Uma lista contendo todos campos suportados pelo template [podem ser encontrados aqui](TEMPLATE.md).
+### Edite o arquivo `people/<username>/template.json`, insira seu nome e demais informações que quiser compartilhar. Uma lista contendo todos campos suportados pelo template [podem ser encontrados aqui](TEMPLATE.md).
 
-> Importante: os campos `Usuario` e `Nome` são mandatórios para que a página possa ser propriamente criada. Sugerimos que pelo menos um meio de contato seja adicionado (website, email ou rede social).
+> Importante: os campos `User` e `Nome` são mandatórios para que a página possa ser propriamente criada. Sugerimos que pelo menos um meio de contato seja adicionado (website, email ou rede social). O campo `User` deve ter o mesmo valor de `<username> 
 
 ### Instale o pacote `jq` (ou outra ferramenta para fazer a validação do arquivo JSON) e verifique se o mesmo não contém nenhum erro
 
@@ -64,7 +64,7 @@ Você pode fazer isso diretamente no github. Vá ao repositório do projeto e no
 ### Ao concluir as edições (e certificar que o arquivo `template.json` não contem erros!), adicione o novo diretório <username> ao seu repositório local
 
 ```
-  $ git add <username>
+  $ git add people/<username>
 ```
 
 ### Faça o commit localmente
