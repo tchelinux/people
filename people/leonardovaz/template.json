@@ -1,15 +1,9 @@
 {
   "User": "leonardovaz",
   "Nome": "Leonardo Vaz",
-  "Info": "Entusiasta do Software Livre e voluntário do Tchelinux.",
+  "Info": "Voluntário do Tchelinux.",
   "Cidade": "São Paulo",
   "Estado": "SP",
   "Foto": "https://avatars3.githubusercontent.com/u/126240",
-  "Email": "leonardo.vaz@gmail.com", 
-  "Website": "https://tchelinux.org", 
-  "Github": "https://github.com/leonardovaz", 
-  "Linkedin": "https://www.linkedin.com/leonardovaz", 
-  "Twitter": "https://twitter.com/leonardovaz", 
-  "Mastodon": "https://mastodon.social/@leonardovaz",
-  "Telegram": "https://t.me/leonardovaz"
+  "Github": "https://github.com/leonardovaz" 
 }
