@@ -1,18 +1,15 @@
 {
   "User": "mhalano",
-  "Nome": "Marcos H. Alano",
-  "Info": "Linux Engineer",
+  "Nome": "Marcos Alano",
+  "Info": "Cloud Specialist",
   "Cidade": "Novo Hamburgo",
   "Estado": "RS",
-  "Foto": "https://avatars1.githubusercontent.com/u/6025031",
-  "Email": "marcoshalano@gmail.com", 
-  "Website": "https://mhalano.io", 
+  "Foto": "https://avatars1.githubusercontent.com/u/6025031", 
   "Github": "https://github.com/mhalano", 
   "Linkedin": "https://www.linkedin.com/in/mhalano", 
   "Twitter": "https://twitter.com/mhalano1", 
   "Mastodon": "https://mastodon.social/@mhalano",
   "Facebook": "https://facebook.com/mhalano",
   "Messenger" : "https://m.me/mhalano",
-  "Telegram": "https://t.me/mhalano",
-  "Whatsapp": "https://api.whatsapp.com/send?phone=5551997388967"
+  "Telegram": "https://t.me/mhalano"
 }
